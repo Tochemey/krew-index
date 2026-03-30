@@ -4,46 +4,46 @@ kind: Plugin
 metadata:
   name: whatif
 spec:
-  version: v0.1.0-alpha
+  version: v0.1.0-beta.1
   platforms:
     - bin: kubectl-whatif.exe
-      uri: https://github.com/tochemey/kubewise/releases/download/v0.1.0-alpha/kubectl-whatif_0.1.0-alpha_windows_arm64.zip
-      sha256: a8683da55471e95cd2aac22881801bf0a7eec1046dab2c1e494c16e4d83ca278
+      uri: https://github.com/tochemey/kubewise/releases/download/v0.1.0-beta.1/kubectl-whatif_0.1.0-beta.1_windows_arm64.zip
+      sha256: 900ad47581037acbdf2d4ca82bb536bb2692550deedcbb71df79c6fd09deb042
       selector:
         matchLabels:
           os: windows
           arch: arm64
     - bin: kubectl-whatif.exe
-      uri: https://github.com/tochemey/kubewise/releases/download/v0.1.0-alpha/kubectl-whatif_0.1.0-alpha_windows_amd64.zip
-      sha256: b917cf491719ea487485122f86eb9449f445d11d4a25a0d0a59ed777b14e1fc8
+      uri: https://github.com/tochemey/kubewise/releases/download/v0.1.0-beta.1/kubectl-whatif_0.1.0-beta.1_windows_amd64.zip
+      sha256: 95ee3cb620cbe1f30dc484db86e87c8035b3658ca0e4c27031baef573928465b
       selector:
         matchLabels:
           os: windows
           arch: amd64
     - bin: kubectl-whatif
-      uri: https://github.com/tochemey/kubewise/releases/download/v0.1.0-alpha/kubectl-whatif_0.1.0-alpha_linux_arm64.tar.gz
-      sha256: b61fe5c1488990e504ca08ec9c48fe96ba870ec17b79b64458b0b718070a6bd0
+      uri: https://github.com/tochemey/kubewise/releases/download/v0.1.0-beta.1/kubectl-whatif_0.1.0-beta.1_linux_arm64.tar.gz
+      sha256: 68f6b20f3701b9ab35573c468f0da94abb57e991884839bdb5a2ea593ea9e6c2
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: kubectl-whatif
-      uri: https://github.com/tochemey/kubewise/releases/download/v0.1.0-alpha/kubectl-whatif_0.1.0-alpha_linux_amd64.tar.gz
-      sha256: 955e4d82e741dfa61e48f22443c7a501fe65f5d469331a2c8e7849460093b543
+      uri: https://github.com/tochemey/kubewise/releases/download/v0.1.0-beta.1/kubectl-whatif_0.1.0-beta.1_linux_amd64.tar.gz
+      sha256: 95291601fd1ed1d0770f88258548f5b7199adb108ef6684ed07c7d2487e1fac4
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: kubectl-whatif
-      uri: https://github.com/tochemey/kubewise/releases/download/v0.1.0-alpha/kubectl-whatif_0.1.0-alpha_darwin_arm64.tar.gz
-      sha256: 48acfda437fa05c4f5f59fbd37e1fef750a70abf2cc4737fa153f9ac37b35c43
+      uri: https://github.com/tochemey/kubewise/releases/download/v0.1.0-beta.1/kubectl-whatif_0.1.0-beta.1_darwin_arm64.tar.gz
+      sha256: 09501284b94d460dbc9ecd7d8608a91ea51a78df235489789d80717602fe3598
       selector:
         matchLabels:
           os: darwin
           arch: arm64
     - bin: kubectl-whatif
-      uri: https://github.com/tochemey/kubewise/releases/download/v0.1.0-alpha/kubectl-whatif_0.1.0-alpha_darwin_amd64.tar.gz
-      sha256: 5514989a9f35ba094f991c28891ee9d935842628a2567f3004ab0d45ab19ace1
+      uri: https://github.com/tochemey/kubewise/releases/download/v0.1.0-beta.1/kubectl-whatif_0.1.0-beta.1_darwin_amd64.tar.gz
+      sha256: bc044ad6e8b958fe3382f1f8c1b1963e956e44eb84db702fae8d751a315bf1a1
       selector:
         matchLabels:
           os: darwin
